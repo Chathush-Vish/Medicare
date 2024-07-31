@@ -1,0 +1,189 @@
+:root {
+   --mainOrange: #f89e52;
+   --mainOrangeHover: #fd7f18;
+   --mainBlue: #222;
+   --mainBlueHover: #000000;
+   --mainBlack: #000;
+   --secondaryBlack: #6b6b6b;
+   --mainWhite: #fff;
+   --secondaryWhite: #e3e4e7;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+.paddin-x {
+   padding-left: 150px;
+   padding-right: 150px;
+}
+
+.paddin-y {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.margin-x {
+   margin-left: 150px;
+   margin-right: 150px;
+}
+
+.margin-y {
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+.w-100 {
+   width: 100%;
+}
+
+.w-50 {
+   width: 50%;
+}
+
+.h-100 {
+   height: 100vh;
+}
+
+.flex {
+   display: flex;
+}
+
+.center {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.between {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.start {
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.end {
+   display: flex;
+   align-items: end;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.column {
+   flex-direction: column;
+}
+
+.g-1 {
+   gap: 10px;
+}
+
+.g-2 {
+   gap: 20px;
+}
+
+.g-3 {
+   gap: 30px;
+}
+
+.g-5 {
+   gap: 50px;
+}
+
+.g-10 {
+   gap: 100px;
+}
+
+.p-1 {
+   padding: 10px;
+}
+
+.p-2 {
+   padding: 20px;
+}
+
+.p-3 {
+   padding: 30px;
+}
+
+.blue {
+   color: var(--mainBlue);
+}
+
+.blue-bg {
+   background-color: var(--mainBlue);
+}
+
+.orange {
+   color: var(--mainOrange);
+}
+
+.orange-bg {
+   background-color: var(--mainOrange);
+}
+
+.btn {
+   border: none;
+   border-radius: 4px;
+   font-size: 15px;
+   cursor: pointer;
+   padding: 10px 25px;
+}
+
+.btn-primary {
+   background-color: transparent;
+   color: var(--mainOrange);
+   font-weight: 500;
+   border: 3px solid var(--mainOrange);
+}
+
+.btn-primary:hover {
+   width: 100px;
+   background-color: var(--mainBlueHover);
+}
+
+.btn-secondary {
+   background-color: var(--mainOrange);
+   color: var(--mainWhite);
+   font-weight: 500;
+}
+
+.btn-secondary:hover {
+   background-color: var(--mainOrangeHover);
+}
+
+.logo {
+   font-size: 1.9em;
+   font-weight: 600;
+   color: #fff;
+}
+
+.logo-black {
+   font-size: 1.9em;
+   font-weight: 600;
+   color: #222;
+}
+
+.logo span {
+   color: var(--mainOrange);
+}
+
+.logo-black span {
+   color: var(--mainOrange);
+}
+
+/* Global style */
+
+a {
+   text-decoration: none;
+   color: #222;
+}
+
+li {
+   list-style: none;
+}

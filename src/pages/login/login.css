@@ -1,0 +1,115 @@
+.login-form {
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url(../../assets/login-bg.jpg);
+   background-size: cover;
+   background-position: center center;
+}
+
+.login-form form {
+   background-color: #fff;
+   height: 500px;
+   width: 500px;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+   padding: 50px;
+   gap: 20px;
+}
+
+.login-form form input {
+   height: 50px;
+   border: 1px solid var(--secondaryWhite);
+   border-radius: 5px;
+   padding: 0 30px;
+}
+
+.login-form form div {
+   position: relative;
+}
+
+.login-form form .icon {
+   position: absolute;
+   top: 15px;
+   right: 20px;
+   cursor: pointer;
+}
+
+.login-form form .icon i {
+   color: #ababab;
+}
+
+.login-form form .icon i:hover {
+   color: #757575;
+}
+
+.login-form form label {
+   display: flex;
+   position: absolute;
+   top: 15px;
+   left: 25px;
+   background-color: #fff;
+   padding: 1px 5px;
+   font-size: 0.9em;
+}
+
+.login-form form input:focus,
+.login-form form input:not(:placeholder-shown) {
+   outline-color: #414141;
+}
+
+.login-form form input:focus + label,
+.login-form form input:not(:placeholder-shown) + label {
+   top: -12px;
+   font-weight: 500;
+   color: var(--secondaryBlack);
+}
+
+.or {
+   gap: 20px;
+}
+
+.or span {
+   height: 1px;
+   background-color: var(--secondaryWhite);
+   width: 100%;
+}
+
+#sign-in {
+   color: #fff;
+   font-size: 0.9em;
+   font-weight: 500;
+   text-transform: uppercase;
+   cursor: pointer;
+   height: 45px;
+   background-color: var(--mainOrange);
+}
+
+#sign-up {
+   background-color: var(--mainBlue);
+   height: 45px;
+   color: #fff;
+   font-size: 0.9em;
+   font-weight: 500;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+#sign-in:hover {
+   background-color: var(--mainBlueHover);
+}
+
+#sign-up:hover {
+   background-color: var(--mainOrangeHover);
+}
+
+.title {
+   gap: 3px;
+   padding-bottom: 20px;
+}
+
+.title h2 {
+   font-size: 1.6em;
+}
+
+.title small {
+   color: #656464;
+}
